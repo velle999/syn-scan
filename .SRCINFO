@@ -1,7 +1,7 @@
 pkgbase = syn-scan
 	pkgdesc = Scan files at rest for malware, and put what turns up aside
 	pkgver = 0.1.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/velle999/syn-scan
 	install = syn-scan.install
 	arch = x86_64
@@ -15,7 +15,7 @@ pkgbase = syn-scan
 	optdepends = rkhunter: rootkit checks, and lynis MALW-3276
 	optdepends = chkrootkit: a second rootkit opinion, from [blackarch] — lynis MALW-3275
 	optdepends = quickshell: the graphical window (syn-scan gui)
-	source = syn-scan-0.1.0.tar.gz::https://github.com/velle999/syn-scan/releases/download/0.1.0-2/syn-scan-0.1.0.tar.gz
+	source = syn-scan-0.1.0.tar.gz::https://github.com/velle999/syn-scan/releases/download/0.1.0-3/syn-scan-0.1.0.tar.gz
 	sha256sums = SKIP
 
 pkgname = syn-scan
